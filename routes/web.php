@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PageController::class, 'home']);
+Route::get('/', [PageController::class, 'home'])->name('page.home');
+Route::get('create', [PageController::class, 'createData'])->name('page.create');
+Route::get('show', [PageController::class, 'showData'])->name('page.show');

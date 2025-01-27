@@ -8,11 +8,15 @@
             body {
                 font-family: 'Georgia', serif;
                 line-height: 1.8;
+                background-color: seagreen;
             }
 
             .container {
                 margin: 0 auto;
+                padding: 20px;
                 max-width: 800px;
+                border-radius: 10px;
+                background-color: rgba(255, 255, 255, 0.8);
             }
         </style>
     </head>
@@ -41,6 +45,8 @@
             <h2>Stap 3</h2>
 
             <p>In een andere controller-method <strong>haal je alle teams en spelers op</strong>. De opgehaalde data wordt doorgegeven aan een <strong>bestaande pagina, waar deze wordt getoond</strong>. Elk team wordt weergegeven met naam en sport. Elke speler wordt getoond met voornaam en achternaam. <strong>Hoe laat je zien in welk team de speler hoort?</strong></p>
+
+            <p>Hier is de <a href="{{ route('page.show') }}">pagina om teams en spelers op te tonen</a>.</p>
         </div>
     </body>
 </html>
