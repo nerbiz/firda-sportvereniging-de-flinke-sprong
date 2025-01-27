@@ -24,6 +24,8 @@
         <div class="container">
             <h1>Teams en spelers</h1>
 
+            <p>Hier is de <a href="{{ route('page.home') }}">pagina waar de opdracht staat</a>.</p>
+
             {{-- Zo ziet een comment eruit in de Blade template engine --}}
             {{-- Laat op deze pagina alle teams en spelers zien --}}
         </div>
