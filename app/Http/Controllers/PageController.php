@@ -15,6 +15,7 @@ class PageController extends Controller
     public function createData(): void
     {
         // Maak hier teams en spelers aan, met behulp van models
+        // Hier is dus geen view nodig en ook geen return
     }
 
     public function showData(): View
